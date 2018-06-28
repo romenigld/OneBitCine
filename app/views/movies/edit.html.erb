@@ -1,0 +1,6 @@
+<h1><%= translate 'actions.edit'%> <%= @movie.model_name.human %> </h1>
+
+<%= render 'form', movie: @movie %>
+
+<%= link_to "#{translate 'actions.show'}", @movie %>
+<%= link_to "#{translate 'actions.back'}", movies_path %>

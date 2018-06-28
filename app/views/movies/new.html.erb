@@ -1,0 +1,5 @@
+<h1><%= translate 'actions.new'%> <%= @movie.model_name.human %> </h1>
+
+<%= render 'form', movie: @movie %>
+
+<%= link_to "#{translate 'actions.back'}", movies_path %>
